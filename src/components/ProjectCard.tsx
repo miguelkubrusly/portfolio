@@ -16,7 +16,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
   imagem,
 }) => {
   return (
-    <div className="bg-gray-900 border border-gray-700 rounded-xl shadow hover:shadow-xl transition-transform duration-300 hover:scale-105 overflow-hidden">
+    <div className="bg-gray-900 border border-gray-700 shadow hover:shadow-xl transition-transform duration-100 hover:scale-105 overflow-hidden">
       {imagem && (
         <img
           src={imagem}
