@@ -14,7 +14,13 @@ const Footer: React.FC = () => {
           </a>
         </p>{" "}
         <p className="mb-2 italic">Telefone: +55(21)99292-5274 </p>
-        <p className="text-sm font-light text-green-300">
+        <p className="mb-2 italic">
+          Github: https://github.com/miguelkubrusly{" "}
+        </p>
+        <p className="mb-2 italic">
+          Linkedin: https://www.linkedin.com/in/miguel-kubrusly/{" "}
+        </p>
+        <p className="text-sm font-light text-black mt-8">
           Este site foi criado por mim, com React, em menos de 12 horas
           incluindo deployment :)
         </p>

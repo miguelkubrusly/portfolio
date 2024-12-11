@@ -18,6 +18,7 @@ const RepoCard: React.FC<RepoCardProps> = ({ nome, descricao, link }) => {
         target="_blank"
         rel="noopener noreferrer"
         className="text-green-200 hover:text-green-100 hover:underline"
+        aria-label={`Acessar o repositório ${nome} no GitHub`}
       >
         Ver no GitHub
       </a>

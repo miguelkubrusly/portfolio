@@ -4,9 +4,54 @@ import RepoCard from "../components/RepoCard";
 const Repositorios: React.FC = () => {
   const repositorios = [
     {
-      nome: "portfolio-react",
-      descricao: "Meu portfólio pessoal criado com React e Tailwind CSS.",
-      link: "https://github.com/seu-usuario/portfolio-react",
+      nome: "portfolio",
+      descricao: "Este portfolio, criado com React e Tailwind CSS.",
+      link: "https://github.com/miguelkubrusly/portfolio",
+    },
+    {
+      nome: "habit_tracker",
+      descricao: "API de um projeto pessoal criado com Django e REST.",
+      link: "https://github.com/miguelkubrusly/habit_tracker",
+    },
+    {
+      nome: "image-search-app",
+      descricao: "Site de busca de imagem criado com React.",
+      link: "https://github.com/miguelkubrusly/image-search-app",
+    },
+    {
+      nome: "personal-book-manager-app",
+      descricao:
+        "Cria uma lista de livros num back-end falso, com React e Tailwind CSS.",
+      link: "https://github.com/miguelkubrusly/personal-book-manager-app",
+    },
+    {
+      nome: "leetcode-exercises",
+      descricao: "Meu repositórios com exercícios do leetcode.",
+      link: "https://github.com/miguelkubrusly/leetcode-exercises",
+    },
+    {
+      nome: "master-math-with-python",
+      descricao:
+        "Repositório de um curso de matemática universitária usando Python.",
+      link: "https://github.com/miguelkubrusly/master-math-with-python",
+    },
+    {
+      nome: "maria-camargo-website",
+      descricao:
+        "Site em construção: recriando em React um site profissional hospedado na Wix.",
+      link: "https://github.com/miguelkubrusly/maria-camargo-website",
+    },
+    {
+      nome: "descomplica",
+      descricao:
+        "Meu repositório para manter controle dos exercícios da faculdade.",
+      link: "https://github.com/miguelkubrusly/descomplica",
+    },
+    {
+      nome: "npm-registry-app",
+      descricao:
+        "Dashboard com busca de informações sobre módulos do NPM, usando API do NPM Registry.",
+      link: "https://github.com/miguelkubrusly/npm-registry-app",
     },
   ];
 

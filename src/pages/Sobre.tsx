@@ -23,6 +23,14 @@ const Sobre: React.FC = () => {
         que busco levar comigo ao ingressar em um estágio onde possa aprender,
         crescer e contribuir.{" "}
       </p>
+      <h2 className="text-xl font-bold text-green-400 mt-6 mb-2">
+        Minhas Principais Habilidades Técnicas
+      </h2>
+      <ul className="list-disc list-inside text-green-300 p-4 bg-gray-900 bg-opacity-50 rounded-sm shadow-inner">
+        <li>Linguagens: JavaScript/TypeScript, Python</li>
+        <li>Frameworks/Bibliotecas: React, Django, Tailwind CSS, Bootstrap</li>
+        <li>Ferramentas e Ambiente: Git, Bash, PowerShell</li>
+      </ul>
     </section>
   );
 };

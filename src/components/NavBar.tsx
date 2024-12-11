@@ -3,7 +3,10 @@ import { Link } from "react-router-dom";
 
 const NavBar: React.FC = () => {
   return (
-    <nav className="bg-gray-800 shadow">
+    <nav
+      className="bg-gray-800 shadow"
+      aria-label="Navegação principal do site"
+    >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-16 items-center">
           <div className="flex-shrink-0">

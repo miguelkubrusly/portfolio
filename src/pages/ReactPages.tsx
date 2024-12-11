@@ -4,26 +4,28 @@ import ProjectCard from "../components/ProjectCard";
 const ReactPages: React.FC = () => {
   const projetos = [
     {
-      nome: "Meu Portfólio React",
-      descricao: "Um portfólio pessoal criado com React e Tailwind CSS...",
-      linkSite: "https://seu-portfolio.com",
-      linkCodigo: "https://github.com/seu-usuario/portfolio-react",
-      imagem: "https://via.placeholder.com/400x300.png?text=Meu+Portfólio",
+      nome: "Component Showcase",
+      descricao:
+        "Um dashboard interativo com uma mostra de diversos componentes reutilizáveis criados e estilizados artesanalmente criado com TailwindCSS.",
+      linkSite: "https://components-showcase-app.vercel.app/",
+      linkCodigo: "https://github.com/miguelkubrusly/components-showcase-app",
+      imagem: "../../resources/showcase.png",
     },
     {
-      nome: "Blog em React",
-      descricao: "Um blog totalmente funcional desenvolvido em React...",
-      linkSite: "https://seu-blog.com",
-      linkCodigo: "https://github.com/seu-usuario/blog-react",
-      imagem: "https://via.placeholder.com/400x300.png?text=Blog+em+React",
+      nome: "Location Search",
+      descricao:
+        "Uma página de geolocalização com ferramenta de busca, criado com Leaflet.",
+      linkSite: "https://location-search-app-alpha.vercel.app/",
+      linkCodigo: "https://github.com/miguelkubrusly/location-search-app",
+      imagem: "../../resources/map.png",
     },
     {
-      nome: "Dashboard de Analytics",
-      descricao: "Um dashboard interativo criado com React e D3.js...",
-      linkSite: "https://seu-dashboard.com",
-      linkCodigo: "https://github.com/seu-usuario/dashboard-analytics",
-      imagem:
-        "https://via.placeholder.com/400x300.png?text=Dashboard+Analytics",
+      nome: "Car Catalog",
+      descricao:
+        "Um gestor de carro para milionários! Inclui barra de busca com match parcial (versão estática).",
+      linkSite: "https://car-catalog-app-theta.vercel.app/",
+      linkCodigo: "https://github.com/miguelkubrusly/car-catalog-app",
+      imagem: "../../resources/cars.png",
     },
   ];
 
