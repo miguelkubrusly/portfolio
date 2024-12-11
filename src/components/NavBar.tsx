@@ -9,13 +9,21 @@ const NavBar: React.FC = () => {
           <div className="flex-shrink-0">
             <Link
               to="/"
-              className="text-2xl font-extrabold text-green-500 tracking-tight hover:underline decoration-green-500"
+              className="text-2xl font-extrabold text-green-800 tracking-tight hover:text-green-500"
             >
-              Meu Portfólio
+              MIGUEL KUBRUSLY
             </Link>
           </div>
           <div>
             <ul className="flex space-x-6">
+              <li>
+                <Link
+                  to="/"
+                  className="text-green-200 font-semibold text-lg hover:text-green-300 hover:underline"
+                >
+                  Sobre
+                </Link>
+              </li>
               <li>
                 <Link
                   to="/desenvolvimento"

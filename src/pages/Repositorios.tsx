@@ -12,7 +12,7 @@ const Repositorios: React.FC = () => {
 
   return (
     <section className="px-6 py-8 max-w-4xl mx-auto">
-      <h1 className="text-2xl font-extrabold mb-6 text-green-300">
+      <h1 className="text-3xl font-extrabold mb-4 text-green-500 tracking-tight">
         Repositórios
       </h1>
       <div className="grid gap-6">
