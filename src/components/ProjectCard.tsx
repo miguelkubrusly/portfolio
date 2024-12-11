@@ -5,7 +5,7 @@ interface ProjectCardProps {
   descricao: string;
   linkSite: string;
   linkCodigo?: string;
-  imagem?: string; // Opcional: URL da imagem do projeto
+  imagem?: string;
 }
 
 const ProjectCard: React.FC<ProjectCardProps> = ({
@@ -16,23 +16,25 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
   imagem,
 }) => {
   return (
-    <div className="bg-white border border-gray-200 rounded-lg shadow hover:shadow-md transition-shadow duration-200">
+    <div className="bg-gray-900 border border-gray-700 rounded-xl shadow hover:shadow-xl transition-transform duration-300 hover:scale-105 overflow-hidden">
       {imagem && (
         <img
           src={imagem}
           alt={`${nome} screenshot`}
-          className="w-full h-40 object-cover rounded-t-lg"
+          className="w-full h-40 object-cover"
         />
       )}
       <div className="p-4">
-        <h2 className="text-lg font-semibold text-gray-800">{nome}</h2>
-        <p className="text-gray-600 mt-2">{descricao}</p>
+        <h2 className="text-lg font-extrabold text-white">{nome}</h2>
+        <p className="text-green-300 mt-2 leading-relaxed font-normal">
+          {descricao}
+        </p>
         <div className="mt-4 flex space-x-4">
           <a
             href={linkSite}
             target="_blank"
             rel="noopener noreferrer"
-            className="text-blue-500 hover:underline"
+            className="text-green-100 hover:text-green-200 hover:underline font-medium"
           >
             Visitar Site
           </a>
@@ -41,7 +43,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
               href={linkCodigo}
               target="_blank"
               rel="noopener noreferrer"
-              className="text-green-500 hover:underline"
+              className="text-green-100 hover:text-green-200 hover:underline font-medium"
             >
               Código no GitHub
             </a>

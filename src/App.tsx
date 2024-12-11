@@ -3,7 +3,6 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import NavBar from "./components/NavBar";
 import Footer from "./components/Footer";
 
-// Páginas
 import Sobre from "./pages/Sobre";
 import Desenvolvimento from "./pages/Desenvolvimento";
 import Audiovisual from "./pages/Audiovisual";
@@ -13,7 +12,7 @@ import ReactPages from "./pages/ReactPages";
 const App: React.FC = () => {
   return (
     <Router>
-      <div className="flex flex-col min-h-screen">
+      <div className="flex flex-col min-h-screen bg-black font-mono text-green-400">
         <NavBar />
         <main className="flex-grow">
           <Routes>

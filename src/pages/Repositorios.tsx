@@ -8,12 +8,13 @@ const Repositorios: React.FC = () => {
       descricao: "Meu portfólio pessoal criado com React e Tailwind CSS.",
       link: "https://github.com/seu-usuario/portfolio-react",
     },
-    // Outros repositórios...
   ];
 
   return (
     <section className="px-6 py-8 max-w-4xl mx-auto">
-      <h1 className="text-2xl font-bold mb-6">Repositórios</h1>
+      <h1 className="text-2xl font-extrabold mb-6 text-green-300">
+        Repositórios
+      </h1>
       <div className="grid gap-6">
         {repositorios.map((repo) => (
           <RepoCard

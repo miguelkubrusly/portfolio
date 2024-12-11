@@ -3,27 +3,23 @@ import { Link } from "react-router-dom";
 
 const NavBar: React.FC = () => {
   return (
-    <nav className="bg-cyan-300 shadow">
+    <nav className="bg-gray-800 shadow">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-16 items-center">
-          {/* Logo ou Título */}
           <div className="flex-shrink-0">
-            <Link to="/" className="text-xl font-semibold text-gray-800">
+            <Link
+              to="/"
+              className="text-2xl font-extrabold text-green-500 tracking-tight hover:underline decoration-green-500"
+            >
               Meu Portfólio
             </Link>
           </div>
-          {/* Menu de Navegação */}
           <div>
-            <ul className="flex space-x-4">
-              <li>
-                <Link to="/" className="text-gray-700 hover:text-blue-500">
-                  Sobre
-                </Link>
-              </li>
+            <ul className="flex space-x-6">
               <li>
                 <Link
                   to="/desenvolvimento"
-                  className="text-gray-700 hover:text-blue-500"
+                  className="text-green-200 font-semibold text-lg hover:text-green-300 hover:underline"
                 >
                   Desenvolvimento
                 </Link>
@@ -31,7 +27,7 @@ const NavBar: React.FC = () => {
               <li>
                 <Link
                   to="/audiovisual"
-                  className="text-gray-700 hover:text-blue-500"
+                  className="text-green-200 font-semibold text-lg hover:text-green-300 hover:underline"
                 >
                   Audiovisual
                 </Link>
@@ -39,13 +35,16 @@ const NavBar: React.FC = () => {
               <li>
                 <Link
                   to="/repositorios"
-                  className="text-gray-700 hover:text-blue-500"
+                  className="text-green-200 font-semibold text-lg hover:text-green-300 hover:underline"
                 >
                   Repositórios
                 </Link>
               </li>
               <li>
-                <Link to="/react" className="text-gray-700 hover:text-blue-500">
+                <Link
+                  to="/react"
+                  className="text-green-200 font-semibold text-lg hover:text-green-300 hover:underline"
+                >
                   React
                 </Link>
               </li>
