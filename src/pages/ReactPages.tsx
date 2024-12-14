@@ -9,7 +9,7 @@ const ReactPages: React.FC = () => {
         "Um dashboard interativo com uma mostra de diversos componentes reutilizáveis criados e estilizados artesanalmente criado com TailwindCSS.",
       linkSite: "https://components-showcase-app.vercel.app/",
       linkCodigo: "https://github.com/miguelkubrusly/components-showcase-app",
-      imagem: "../../resources/showcase.png",
+      imagem: "/resources/react-proj/showcase.png",
     },
     {
       nome: "Location Search",
@@ -17,7 +17,7 @@ const ReactPages: React.FC = () => {
         "Uma página de geolocalização com ferramenta de busca, criado com Leaflet.",
       linkSite: "https://location-search-app-alpha.vercel.app/",
       linkCodigo: "https://github.com/miguelkubrusly/location-search-app",
-      imagem: "../../resources/map.png",
+      imagem: "/resources/react-proj/map.png",
     },
     {
       nome: "Car Catalog",
@@ -25,7 +25,7 @@ const ReactPages: React.FC = () => {
         "Um gestor de carro para milionários! Inclui barra de busca com match parcial (versão estática).",
       linkSite: "https://car-catalog-app-theta.vercel.app/",
       linkCodigo: "https://github.com/miguelkubrusly/car-catalog-app",
-      imagem: "../../resources/cars.png",
+      imagem: "/resources/react-proj/cars.png",
     },
   ];
 

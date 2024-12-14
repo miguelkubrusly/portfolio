@@ -7,18 +7,34 @@ const Footer: React.FC = () => {
         <p className="mb-2 italic">
           Entre em contato:{" "}
           <a
-            href="mailto:miguel@kubrusly.com"
+            href="miguel.kubrusly@gmail.com"
             className="hover:underline decoration-green-400"
           >
-            miguel@kubrusly.com{" "}
+            miguel.kubrusly@gmail.com{" "}
           </a>
         </p>{" "}
         <p className="mb-2 italic">Telefone: +55(21)99292-5274 </p>
         <p className="mb-2 italic">
-          Github: https://github.com/miguelkubrusly{" "}
+          Github:{" "}
+          <a
+            href="https://github.com/miguelkubrusly"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:underline decoration-green-400"
+          >
+            github.com/miguelkubrusly
+          </a>
         </p>
         <p className="mb-2 italic">
-          Linkedin: https://www.linkedin.com/in/miguel-kubrusly/{" "}
+          Linkedin:{" "}
+          <a
+            href="https://www.linkedin.com/in/miguel-kubrusly/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:underline decoration-green-400"
+          >
+            linkedin.com/in/miguel-kubrusly/
+          </a>
         </p>
         <p className="text-sm font-light text-black mt-8">
           Este site foi criado por mim, com React, em menos de 12 horas

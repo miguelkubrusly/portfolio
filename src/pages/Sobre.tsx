@@ -27,7 +27,7 @@ const Sobre: React.FC = () => {
         Minhas Principais Habilidades Técnicas
       </h2>
       <ul className="list-disc list-inside text-green-300 p-4 bg-gray-900 bg-opacity-50 rounded-sm shadow-inner">
-        <li>Linguagens: JavaScript/TypeScript, Python</li>
+        <li>Linguagens: JavaScript/TypeScript, Python, HTML, CSS</li>
         <li>Frameworks/Bibliotecas: React, Django, Tailwind CSS, Bootstrap</li>
         <li>Ferramentas e Ambiente: Git, Bash, PowerShell</li>
       </ul>
