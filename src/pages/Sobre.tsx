@@ -7,12 +7,12 @@ const Sobre: React.FC = () => {
         Sobre
       </h1>
       <p className="text-base font-normal leading-relaxed text-green-300 p-4 bg-gray-900 bg-opacity-50 rounded-sm shadow-inner">
-        Sempre fui uma pessoa movida por lógica, aprendizado constante e busca
-        pela excelência. Minha formação acadêmica, que inclui passagens por
-        Letras e Medicina, ensinou-me a abordar problemas de forma analítica,
-        metódica e sistemática. Hoje, como estudante de Engenharia de Software,
-        encontro na programação o espaço ideal para desafiar meu raciocínio e
-        curiosidade intelectual.
+        Sempre fui uma pessoa movida por lógica, aprendizado e busca pela
+        excelência. Minha formação acadêmica, que inclui passagens por Letras e
+        Medicina, ensinou-me a abordar problemas de forma analítica, metódica e
+        sistemática. Hoje, como estudante de Engenharia de Software, encontro na
+        programação o espaço ideal para desafiar meu raciocínio e curiosidade
+        intelectual.
       </p>
       <p className="text-base font-normal leading-relaxed text-green-300 p-4 bg-gray-900 bg-opacity-50 rounded-sm shadow-inner">
         {" "}
