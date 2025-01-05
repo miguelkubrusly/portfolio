@@ -1,4 +1,4 @@
-import React from "react";
+import { useState } from "react";
 import Certificate from "../components/Certificate";
 
 const CERTIFICATES = [
@@ -25,6 +25,13 @@ const CERTIFICATES = [
 ];
 
 const Desenvolvimento: React.FC = () => {
+  const [selectedCertificate, setSelectedCertificate] = useState<{
+    nome: string;
+    src: string;
+  } | null>(null);
+
+  const closeModal = () => setSelectedCertificate(null);
+
   return (
     <section className="px-6 py-8 max-w-3xl mx-auto">
       <h1 className="text-3xl font-extrabold mb-4 text-green-500 tracking-tight">
@@ -66,9 +73,38 @@ const Desenvolvimento: React.FC = () => {
             nome={cert.nome}
             src={cert.src}
             instituicao={cert.instituicao}
+            onClick={() => {
+              setSelectedCertificate({ nome: cert.nome, src: cert.src });
+            }}
           />
         ))}
       </div>
+      {selectedCertificate && (
+        <div
+          className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-70 scale-150"
+          onClick={closeModal}
+        >
+          <div
+            className="bg-white p-4 rounded-sm shadow-lg relative max-w-lg w-full"
+            onClick={(e) => e.stopPropagation()}
+          >
+            <button
+              className="absolute top-2 right-2 text-gray-500 hover:text-gray-800"
+              onClick={closeModal}
+            >
+              ✕
+            </button>
+            <h2 className="text-xl font-bold mb-4">
+              {selectedCertificate.nome}
+            </h2>
+            <img
+              src={selectedCertificate.src}
+              alt={`Certificado de ${selectedCertificate.nome}`}
+              className="w-full h-auto object-cover"
+            />
+          </div>
+        </div>
+      )}
     </section>
   );
 };
