@@ -41,29 +41,28 @@ const Desenvolvimento: React.FC = () => {
         <p className="text-base font-normal leading-relaxed text-green-300 mb-4">
           Como programador em formação, sinto cada vez mais entusiasmo ao ver
           código tornar-se realidade, e me fascina compreender o potencial sem
-          limites que há para transformar o mundo, nessa área. Domino Python,
+          limites que há para transformar o mundo nessa área. Domino Python,
           JavaScript, HTML e CSS, além de trabalhar com Git, Bash, PowerShell e
           ter no React meu principal framework. Também exploro Django, Vue e
-          Numpy, mantendo-me atento a novas ferramentas e tendências. Vejo no
-          estudo não apenas um meio de crescimento profissional e individual,
-          mas um verdadeiro prazer.
+          Numpy, mantendo-me atento a novas ferramentas e tendências. Identifico
+          no estudo constante não apenas uma forma de crescimento profissional e
+          individual, mas um verdadeiro prazer.
         </p>
         <p className="text-base font-normal leading-relaxed text-green-300 mb-4">
-          Por isso, meu interesse pelo desenvolvimento vai além do básico:
-          atraem-me inteligência artificial, segurança, machine learning,
-          desenvolvimento de jogos e finanças, áreas complexas onde
-          criatividade, conhecimento e raciocínio matemático se confundem. Sei
-          que cada uma dessas áreas individualmente pode ocupar uma vida inteira
-          de estudos, mas não consigo deixar de ambicionar conhecê-las
-          profundamente algum dia.
+          Por conta disso, meu interesse pelo desenvolvimento vai além do
+          básico. Áreas complexas onde criatividade, conhecimento e matemática
+          se misturam me atraem: inteligência artificial, segurança, machine
+          learning, desenvolvimento de jogos, análise de dados, finanças, etc.
+          Sei que cada uma dessas áreas individualmente pode ocupar uma vida
+          inteira de estudos. Entretanto, não consigo deixar de ambicionar
+          conhecê-las profundamente algum dia.
         </p>
         <p className="text-base font-normal leading-relaxed text-green-300 mb-4">
           Considero o bom trabalho em equipe como uma habilidade imprescindível
-          a toda e qualquer profissão profissão, mas, é especialmente importante
-          na engenharia de grandes aplicativos. Portanto, como desenvolvedor,
-          busco integrar equipes que valorizem aprendizado mútuo e
-          companheirismo, e levo comigo comunicação clara, respeito e um
-          constante desejo de evoluir.
+          a toda e qualquer profissão, mas, especialmente, na engenharia de
+          grandes aplicativos. Assim, como desenvolvedor em maturação, busco
+          times que valorizem aprendizado mútuo e companheirismo, e levo comigo
+          comunicação clara, respeito e um constante desejo de evoluir.
         </p>
       </div>
 
