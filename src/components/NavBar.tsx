@@ -26,7 +26,7 @@ const NavBar: React.FC = () => {
           </div>
 
           {/* Botão de menu (hamburger) no mobile */}
-          <div className="flex md:hidden">
+          <div className="flex lg:hidden">
             <button
               onClick={() => setMenuOpen(!menuOpen)}
               type="button"
@@ -64,7 +64,7 @@ const NavBar: React.FC = () => {
           </div>
 
           {/* Menu em telas médias ou maiores */}
-          <div className="hidden md:flex md:items-center">
+          <div className="hidden lg:flex lg:items-center">
             <ul className="flex space-x-6">
               <li>
                 <Link
