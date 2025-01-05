@@ -33,21 +33,29 @@ const Desenvolvimento: React.FC = () => {
       <div className="bg-gray-900 bg-opacity-50 p-4 rounded-sm shadow-inner">
         <p className="text-base font-normal leading-relaxed text-green-300 mb-4">
           Como programador em formação, sinto grande entusiasmo ao ver código
-          tornar-se soluções reais e úteis. Domino Python, JavaScript, HTML e
-          CSS, além de trabalhar com Git, Bash, PowerShell e ter no React meu
-          principal framework. Também exploro Django e Numpy, mantendo-me atento
-          a novas ferramentas e tendências.
+          tornar-se realidade, e ao entender o potencial que há na programação
+          para transformar o mundo. Domino Python, JavaScript, HTML e CSS, além
+          de trabalhar com Git, Bash, PowerShell e ter no React meu principal
+          framework. Também exploro Django, Vue e Numpy, mantendo-me atento a
+          novas ferramentas e tendências. Vejo no estudo não apenas um meio de
+          crescimento, mas um verdadeiro prazer.
         </p>
         <p className="text-base font-normal leading-relaxed text-green-300 mb-4">
           Meu interesse pelo desenvolvimento vai além do básico: atraem-me a
-          automação, a segurança, o machine learning, os jogos e as finanças,
-          áreas complexas onde a criatividade e o raciocínio matemático se
-          alinham a desafios técnicos reais. Busco integrar equipes que
-          valorizem aprendizado mútuo, comunicação clara e respeito entre
-          colegas, ambientes onde possa evoluir enfrentando problemas concretos.
-          Sou pragmático, detalhista e vejo no estudo não apenas um meio de
-          crescimento, mas um verdadeiro prazer. Quero contribuir para produtos
-          de qualidade e times em constante progresso.
+          inteligência artificial, a segurança, o machine learning, os jogos e
+          as finanças, áreas complexas onde criatividade, conhecimento e
+          raciocínio matemático se confundem. Sei que cada uma dessas áreas
+          individualmente pode ocupar uma vida inteira de estudos, mas não
+          consigo deixar de ambicionar conhecê-las profundamente algum dia.
+        </p>
+        <p className="text-base font-normal leading-relaxed text-green-300 mb-4">
+          Considero o bom trabalho em equipe como uma habilidade imprescindível
+          a qualquer profissão, mas, na engenharia de grandes aplicativos, essa
+          realidade não poderia ser mais enfatizada. Por isso, busco integrar
+          equipes que valorizem aprendizado mútuo e companheirismo, e levo
+          comigo comunicação clara, respeito entre colegas e um constante desejo
+          de evoluir. Sou pragmático e detalhista, e anseio para contribuir com
+          produtos de qualidade e times em constante progresso.
         </p>
       </div>
 

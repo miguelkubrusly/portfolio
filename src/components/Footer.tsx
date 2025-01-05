@@ -36,10 +36,12 @@ const Footer: React.FC = () => {
             linkedin.com/in/miguel-kubrusly/
           </a>
         </p>
-        <p className="text-sm font-light text-black mt-8">
-          Este site foi criado por mim, com React, em menos de 12 horas
-          incluindo deployment :)
-        </p>
+        <div className="max-w-[550px] mx-auto">
+          <p className="text-xs font-light text-green-300 mt-8">
+            Este site foi criado com React em menos de 12 horas, incluindo
+            deployment :D
+          </p>
+        </div>
       </div>
     </footer>
   );
