@@ -12,13 +12,18 @@ const NavBar: React.FC = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-16 items-center">
           {/* Logo */}
-          <div className="flex-shrink-0">
+          <div className="flex items-center space-x-2">
             <Link
               to="/"
-              className="text-2xl font-extrabold text-green-800 tracking-tight hover:text-green-500"
+              className="text-2xl font-extrabold text-green-800 tracking-tight hover:text-green-500 md:mr-4 mr-0"
             >
               MIGUEL KUBRUSLY
             </Link>
+            <img
+              src="../../public/resources/pacman-eating.png"
+              alt="Pacman comendo"
+              className="h-8 md:mb-2 scale-75 md:scale-100 mr-2"
+            />
           </div>
 
           {/* Botão de menu (hamburger) no mobile */}
@@ -109,7 +114,10 @@ const NavBar: React.FC = () => {
 
       {/* Menu em telas pequenas (mobile) */}
       {menuOpen && (
-        <div className="md:hidden" id="mobile-menu">
+        <div
+          className="md:hidden"
+          id="mobile-menu"
+        >
           <ul className="px-2 pt-2 pb-3 space-y-1 sm:px-3 text-center">
             <li>
               <Link
