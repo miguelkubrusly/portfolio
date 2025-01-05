@@ -13,17 +13,18 @@ const Audiovisual: React.FC = () => {
           do audiovisual, como Amazon, Globo e Netflix. Nessas experiências,
           aprimorei organização, atenção aos detalhes e agilidade na solução de
           problemas — competências que também são valiosas no desenvolvimento de
-          softwares. Destaco minha capacidade de automação de tarefas por meio
-          de scripts, assim como o contato com diferentes sistemas operacionais,
-          regex e ferramentas de debug.
+          softwares. Destaco minha habilidade - particular dentro do meio - de
+          automatizar tarefas repetitivas por meio de macros e scripts, assim
+          como o contato com diferentes sistemas operacionais e utilização
+          avançada de regex.
         </p>
         <p className="text-base font-normal leading-relaxed text-green-300 mb-4">
-          Além disso, por trabalhar em projetos home office desde de 2019,
-          aprendi a colaborar com equipes remotas e a manter clareza na
-          comunicação. Esses aprendizados enriqueceram minha abordagem
-          profissional, me dando uma base sólida de disciplina, flexibilidade e
-          senso crítico sob pressão, habilidades que pretendo aplicar
-          integralmente na área de desenvolvimento.{" "}
+          Além disso, por trabalhar em projetos home office desde 2019, aprendi
+          a colaborar com equipes remotas e a manter clareza na comunicação.
+          Esses aprendizados enriqueceram minha abordagem profissional, me dando
+          uma base sólida de disciplina, flexibilidade e senso crítico sob
+          pressão, habilidades que pretendo aplicar integralmente na área de
+          desenvolvimento.{" "}
         </p>
       </div>
     </section>

@@ -25,9 +25,9 @@ const Sobre: React.FC = () => {
       </p>
       <p className="text-base font-normal leading-relaxed text-green-300 p-4 bg-gray-900 bg-opacity-50 rounded-sm shadow-inner">
         {" "}
-        Acredito que organização, boa comunicação e honestidade são a base de um
-        ambiente de trabalho sólido — qualidades que busco sempre levar comigo
-        ao ingressar em um estágio onde possa aprender, crescer e contribuir.{" "}
+        Acredito que organização, boa comunicação e disciplina são a base de um
+        ambiente de trabalho produtivo. Portanto, são qualidades que levarei
+        comigo a qualquer meio profissional que eu ingresse.{" "}
       </p>
       <h2 className="text-xl font-bold text-green-400 mt-6 mb-2">
         Minhas Principais Habilidades Técnicas

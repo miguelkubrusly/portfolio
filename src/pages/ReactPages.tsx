@@ -6,7 +6,7 @@ const ReactPages: React.FC = () => {
     {
       nome: "Component Showcase",
       descricao:
-        "Um dashboard interativo com uma mostra de diversos componentes reutilizáveis criados e estilizados artesanalmente criado com TailwindCSS.",
+        "Um dashboard interativo com uma mostra de diversos componentes reutilizáveis, criados e estilizados artesanalmente com TailwindCSS.",
       linkSite: "https://components-showcase-app.vercel.app/",
       linkCodigo: "https://github.com/miguelkubrusly/components-showcase-app",
       imagem: "/resources/react-proj/showcase.png",
@@ -14,7 +14,7 @@ const ReactPages: React.FC = () => {
     {
       nome: "Location Search",
       descricao:
-        "Uma página de geolocalização com ferramenta de busca, criado com Leaflet.",
+        "Uma página de geolocalização com ferramenta de busca, criada com Leaflet.",
       linkSite: "https://location-search-app-alpha.vercel.app/",
       linkCodigo: "https://github.com/miguelkubrusly/location-search-app",
       imagem: "/resources/react-proj/map.png",

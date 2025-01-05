@@ -2,10 +2,10 @@ import React from "react";
 import RepoCard from "../components/RepoCard";
 
 const Repositorios: React.FC = () => {
-  const repositorios = [
+  const REPOSITORIOS = [
     {
       nome: "portfolio",
-      descricao: "Este portfolio, criado com React e Tailwind CSS.",
+      descricao: "Este portfólio, criado com React e Tailwind CSS.",
       link: "https://github.com/miguelkubrusly/portfolio",
     },
     {
@@ -26,7 +26,7 @@ const Repositorios: React.FC = () => {
     },
     {
       nome: "leetcode-exercises",
-      descricao: "Meu repositórios com exercícios do leetcode.",
+      descricao: "Meu repositório com exercícios do LeetCode.",
       link: "https://github.com/miguelkubrusly/leetcode-exercises",
     },
     {
@@ -61,7 +61,7 @@ const Repositorios: React.FC = () => {
         Repositórios
       </h1>
       <div className="grid gap-6">
-        {repositorios.map((repo) => (
+        {REPOSITORIOS.map((repo) => (
           <RepoCard
             key={repo.nome}
             nome={repo.nome}
