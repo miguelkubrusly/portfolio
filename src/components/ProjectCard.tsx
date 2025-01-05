@@ -16,12 +16,13 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
   imagem,
 }) => {
   return (
-    <div className="bg-gray-900 border border-gray-700 shadow hover:shadow-xl transition-transform duration-100 hover:scale-105 overflow-hidden flex flex-col">
+    <div className="bg-gray-900 border border-gray-700 shadow hover:shadow-xl transition-transform duration-100 hover:scale-105 overflow-hidden flex flex-col h-full">
       <a
         href={linkSite}
         target="_blank"
         rel="noopener noreferrer"
         aria-label={`Visitar o site do projeto ${nome}`}
+        className="flex flex-col h-full"
       >
         {imagem && (
           <img
@@ -31,7 +32,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
           />
         )}
         <div className="p-4 flex flex-col flex-grow justify-between">
-          <div>
+          <div className="flex-grow">
             <h2 className="text-lg font-extrabold text-white">{nome}</h2>
             <p className="text-green-300 mt-2 leading-relaxed font-normal">
               {descricao}
