@@ -11,7 +11,6 @@ const NavBar: React.FC = () => {
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-16 items-center">
-          {/* Logo */}
           <div className="flex items-center space-x-2">
             <Link
               to="/"
@@ -20,7 +19,7 @@ const NavBar: React.FC = () => {
               MIGUEL KUBRUSLY
             </Link>
             <img
-              src="../../public/resources/pacman-eating.png"
+              src="resources/pacman-eating.png"
               alt="Pacman comendo"
               className="h-8 md:mb-2 scale-75 md:scale-100 mr-2"
             />
