@@ -39,11 +39,11 @@ const Desenvolvimento: React.FC = () => {
       </h1>
       <div className="bg-gray-900 bg-opacity-50 p-4 rounded-sm shadow-inner">
         <p className="text-base font-normal leading-relaxed text-green-300 mb-4">
-          Como programador em formação, me fascina compreender o quão
-          inesgotável é o potencial para transformar o mundo usando código.
-          Domino Python, JavaScript, HTML e CSS, além de trabalhar com Git,
-          Bash, PowerShell e ter no React meu principal framework. Também
-          exploro Django, Vue e Numpy, mantendo-me atento a novas ferramentas e
+          Como programador em formação, me fascina compreender, cada dia melhor,
+          o quanto códigos podem impactar nossa realidade imediata. Domino
+          Python, JavaScript, HTML e CSS, além de trabalhar com Git, Bash,
+          PowerShell e ter no React meu principal framework. Também exploro
+          Django, Vue e Numpy, mantendo-me atento a novas ferramentas e
           tendências. Identifico no estudo constante não apenas uma forma de
           crescimento profissional e individual, mas um verdadeiro prazer.
         </p>

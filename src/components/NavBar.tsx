@@ -14,7 +14,7 @@ const NavBar: React.FC = () => {
           <div className="flex items-center space-x-2">
             <Link
               to="/"
-              className="text-2xl font-extrabold text-green-800 tracking-tight hover:text-green-500 md:mr-4 mr-0"
+              className="text-2xl font-extrabold text-green-800 tracking-tight hover:text-green-500 md:mr-2 mr-0"
             >
               MIGUEL KUBRUSLY
             </Link>
