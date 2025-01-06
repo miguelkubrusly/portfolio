@@ -39,23 +39,22 @@ const Desenvolvimento: React.FC = () => {
       </h1>
       <div className="bg-gray-900 bg-opacity-50 p-4 rounded-sm shadow-inner">
         <p className="text-base font-normal leading-relaxed text-green-300 mb-4">
-          Como programador em formação, sinto cada vez mais entusiasmo ao ver
-          código tornar-se realidade, e me fascina compreender o potencial sem
-          limites que há para transformar o mundo nessa área. Domino Python,
-          JavaScript, HTML e CSS, além de trabalhar com Git, Bash, PowerShell e
-          ter no React meu principal framework. Também exploro Django, Vue e
-          Numpy, mantendo-me atento a novas ferramentas e tendências. Identifico
-          no estudo constante não apenas uma forma de crescimento profissional e
-          individual, mas um verdadeiro prazer.
+          Como programador em formação, me fascina compreender o quão
+          inesgotável é o potencial para transformar o mundo usando código.
+          Domino Python, JavaScript, HTML e CSS, além de trabalhar com Git,
+          Bash, PowerShell e ter no React meu principal framework. Também
+          exploro Django, Vue e Numpy, mantendo-me atento a novas ferramentas e
+          tendências. Identifico no estudo constante não apenas uma forma de
+          crescimento profissional e individual, mas um verdadeiro prazer.
         </p>
         <p className="text-base font-normal leading-relaxed text-green-300 mb-4">
           Por conta disso, meu interesse pelo desenvolvimento vai além do
           básico. Áreas complexas onde criatividade, conhecimento e matemática
-          se misturam me atraem: inteligência artificial, segurança, machine
-          learning, desenvolvimento de jogos, análise de dados, finanças, etc.
-          Sei que cada uma dessas áreas individualmente pode ocupar uma vida
-          inteira de estudos. Entretanto, não consigo deixar de ambicionar
-          conhecê-las profundamente algum dia.
+          se misturam me atraem: LLMs, segurança, machine learning,
+          desenvolvimento de jogos, análise de dados, finanças, etc. Sei que
+          cada uma dessas áreas individualmente pode ocupar uma vida inteira de
+          estudos. Entretanto, não consigo deixar de ambicionar conhecê-las
+          profundamente algum dia.
         </p>
         <p className="text-base font-normal leading-relaxed text-green-300 mb-4">
           Considero o bom trabalho em equipe como uma habilidade imprescindível
