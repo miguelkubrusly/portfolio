@@ -16,7 +16,7 @@ const Certificate: React.FC<CertificateProps> = ({
   return (
     <div
       onClick={onClick}
-      className="bg-gray-800 p-4 border border-gray-700 rounded-sm shadow hover:shadow-lg transition-transform duration-100 hover:scale-105"
+      className="bg-gray-800 p-4 border border-gray-700 rounded-sm shadow hover:shadow-lg transition-transform duration-100 hover:scale-105 hover:cursor-pointer"
     >
       <h2 className="text-lg font-extrabold text-white mb-2">{nome}</h2>
       <p className="text-green-300 mb-4">{instituicao}</p>
